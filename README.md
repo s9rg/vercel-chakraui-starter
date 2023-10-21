@@ -14,8 +14,10 @@ Template built on [Next.js](https://nextjs.org/), [Suppabase](https://supabase.c
 
 - Rename sample.env to .env and set appropriate variables.
 
+```
   NEXT_PUBLIC_SUPABASE_URL=your-project-url
   NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+```
 
 You can obtain the connection string by navigating to your Azure Cosmos DB account page's key blade, and select Primary connection string. Copy the value to use.
 
