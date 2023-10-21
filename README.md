@@ -1,12 +1,12 @@
-# Azure Cosmos DB Starter – Todo App
+# Vercel - Chakra UI - Next JS starter
 
-A simple Todo App built on [Next.js](https://nextjs.org/) and [Azure Cosmos DB](https://aka.ms/trycosmosdbvercel), deployed on [Vercel](https://vercel.com/) with the [Vercel + Azure Cosmos DB integration](https://vercel.com/integrations/azurecosmosdb).
+Template built on [Next.js](https://nextjs.org/), [Suppabase](https://supabase.com/) and [Chakra UI](https://chakra-ui.com/), deployed on [Vercel](https://vercel.com/)
 
 ## Deployment Instructions
 
 ### Pre requisites
 
-Azure [Cosmos DB account](https://aka.ms/trycosmosdbvercel), database and container. Please make sure the [Partition Key](https://learn.microsoft.com/en-us/azure/cosmos-db/partitioning-overview) for container is '/id'.
+[Suppabase](https://supabase.com/) account and database.
 
 ### Steps
 
@@ -14,9 +14,8 @@ Azure [Cosmos DB account](https://aka.ms/trycosmosdbvercel), database and contai
 
 - Rename sample.env to .env and set appropriate variables.
 
-  - COSMOSDB_CONNECTION_STRING : This is the connection string for Azure Cosmos DB.
-  - COSMOSDB_DATABASE_NAME : This is the name of the database to store todos.
-  - COSMOSDB_CONTAINER_NAME : This is the name of the container to store todos.
+  NEXT_PUBLIC_SUPABASE_URL=your-project-url
+  NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
 
 You can obtain the connection string by navigating to your Azure Cosmos DB account page's key blade, and select Primary connection string. Copy the value to use.
 
@@ -24,8 +23,9 @@ You can obtain the connection string by navigating to your Azure Cosmos DB accou
 
 ## Demo
 
-https://cosmosdb-vercel-starter.vercel.app/
+TBD
 
-## Vercel + Azure Cosmos DB Integration
+## Vercel + Supabase Integrations
 
-https://vercel.com/integrations/azurecosmosdb
+@supabase/auth-helpers-nextjs
+@supabase/supabase-js
