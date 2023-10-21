@@ -29,5 +29,7 @@ TBD
 
 ## Vercel + Supabase Integrations
 
+```
 @supabase/auth-helpers-nextjs
 @supabase/supabase-js
+```
